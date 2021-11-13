@@ -1,5 +1,9 @@
 ## TWO_NODE_NA_GATE
 
+This folder contains the necessary MATLAB and Simulink files for simulating the response of  
+     a. two node network with same I/O nodes and  
+     b. Voltage gated NA+ channel.  
+
 1. Run `steady_state.m` to define the rate dynamics.
 2. Run the first section of `Main_Two_prot_mod` to calculate the associated initial steady states.
 3. Plug in these necessary information in `Two_prot_mod.slx` to generate the non-linear model for simulation.
